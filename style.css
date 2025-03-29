@@ -1,0 +1,62 @@
+/*estilos gerais*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0,1%;
+    padding: 0%;
+    line-height: 1,6;
+    background: #d79ef8;
+    color: rgb(101, 19, 139);
+
+}
+
+/*cabechalho*/
+header{
+    background-color: rgb(99, 43, 131);
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    margin: 0%;
+    font-size: 2.5rem;
+
+}
+
+nav a{
+    color: azure;
+    text-decoration: none;
+    margin: 0, 20px;
+    font-weight: bold;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+article {
+    flex: 2;
+    background: white;
+    padding: 20px;
+    box-shadow: 0,0,10px  rgb(0, 0, 0), blue, alpha;
+    border-radius: 80px;
+
+}
+
+aside{
+    flex: 1;
+    background: beige;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 2900000px;
+
+
+}
